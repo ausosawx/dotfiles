@@ -48,18 +48,6 @@ window#waybar.hidden {
   background: #ddb6f2;
 }
 
-#keyboard-state {
-  margin-top: 6px;
-  margin-left: 6px;
-  padding-left: 8px;
-  padding-right: 10px;
-  margin-bottom: 0px;
-  border-radius: 10px;
-  transition: none;
-  color: #ffffff;
-  background: #383c4a;
-}
-
 #tray {
   margin-top: 6px;
   margin-left: 8px;
