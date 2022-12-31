@@ -1,0 +1,25 @@
+font=Sauce Code Pro Medium Nerd Font Complete Mono 13
+on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
+icon-path=/usr/share/icons/Vimix-Beryl
+layer=top
+markup=1
+anchor=top-right
+max-icon-size=96
+icon-location=right
+margin=20,20,0
+padding=15,15,15
+border-size=2
+default-timeout=10000
+border-radius=15
+
+# Colors
+
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#89b4fa
+progress-color=over #313244
+
+[urgency=high]
+border-color=#fab387
+
+

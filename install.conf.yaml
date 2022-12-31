@@ -1,0 +1,68 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- clean: ['~','~/.config']
+
+- link:
+    ~/.config/wayfire.ini:
+    ~/.config/kitty:
+    ~/.config/ranger:
+    ~/.config/rofi:
+    ~/.config/waybar:
+    ~/.config/zathura:
+    ~/.config/mpv:
+    ~/.config/mpd:
+    ~/.config/ncmpcpp:
+    ~/.config/system_scripts:
+    ~/.config/wallpaper:
+    ~/.config/neofetch:
+    ~/.config/fzf:
+    ~/.config/mako:
+    ~/.config/wlogout:
+    ~/.config/btop:
+    ~/.config/cava:
+    ~/.config/imv:
+    ~/.config/yt-dlp:
+    ~/.config/htop:
+    ~/.config/gtk-3.0:
+    ~/.config/gtk-4.0:
+    ~/.config/fontconfig:
+    ~/.config/hypr:
+    ~/.config/foot:
+    ~/.config/lf:
+    ~/.config/kanshi:
+    ~/.config/mimeapps.list:
+    ~/.config/shell:
+    ~/.config/paru:
+    ~/.config/clangd:
+    ~/.config/alacritty:
+    ~/.config/Thunar:
+    ~/.config/nvim:
+    ~/.config/bat:
+    ~/.config/fcitx5:
+    ~/.config/xfce4:
+    ~/.config/obs-studio/themes: obs/themes
+    ~/.config/VSCodium/User/settings.json: vscodium/settings.json
+    ~/.config/VSCodium/User/keybindings.json: vscodium/keybindings.json
+    ~/.vscode-oss/extensions/extensions.json: vscodium/extensions.json
+    ~/.style.yapf:
+    ~/.clang-format:
+    ~/.cmake-format.py:
+    ~/.bash_profile:
+    ~/.bashrc:
+    ~/.zshenv:
+    ~/.gitconfig:
+    ~/.gitignore_global:
+    ~/.latexmkrc:
+    ~/.gtkrc-2.0: gtk-2.0/gtkrc-2.0
+    ~/.fonts:
+    ~/.local/share/applications/nvim.desktop:
+    ~/bin:
+
+- shell:
+    - git submodule sync --recursive
+  # the following have to run after linking ~/.gitconfig
+    - git update-submodules

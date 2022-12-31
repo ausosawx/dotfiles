@@ -1,0 +1,43 @@
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+	ignore = dirty
+[submodule "shell/plugins/dircolors-solarized"]
+	path = shell/plugins/dircolors-solarized
+	url = https://github.com/seebi/dircolors-solarized
+[submodule "shell/plugins/zsh-syntax-highlighting"]
+	path = shell/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule "shell/plugins/zsh-completions"]
+	path = shell/plugins/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions
+[submodule "ranger/plugins/ranger_devicons"]
+	path = ranger/plugins/ranger_devicons
+	url = https://github.com/alexanderjeurissen/ranger_devicons
+[submodule "shell/plugins/zsh-autosuggestions"]
+	path = shell/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "wallpaper"]
+	path = wallpaper
+	url = https://github.com/ausosawx/wallpaper.git
+[submodule "foot/sway-themes"]
+	path = foot/sway-themes
+	url = https://github.com/ausosawx/sway-themes.git
+[submodule "mako/mako"]
+        path = mako/mako
+        url = https://github.com/catppuccin/mako.git
+[submodule "bat/bat"]
+        path = bat/themes
+        url = https://github.com/catppuccin/bat.git
+[submodule "btop/btop"]
+        path = btop/themes
+        url = https://github.com/catppuccin/btop.git
+[submodule "obs"]
+        path = obs
+        url = https://github.com/catppuccin/obs.git
+[submodule "cava/cava"]
+        path = cava/catppuccin
+        url = https://github.com/catppuccin/cava.git
+[submodule "zathura/zathura"]
+        path = zathura/themes
+        url = https://github.com/catppuccin/zathura.git

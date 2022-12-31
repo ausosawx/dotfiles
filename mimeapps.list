@@ -1,0 +1,28 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Nightly-TOJ7R1.desktop
+x-scheme-handler/https=userapp-Nightly-TOJ7R1.desktop
+x-scheme-handler/chrome=userapp-Nightly-TOJ7R1.desktop
+text/html=userapp-Nightly-TOJ7R1.desktop
+application/x-extension-htm=userapp-Nightly-TOJ7R1.desktop
+application/x-extension-html=userapp-Nightly-TOJ7R1.desktop
+application/x-extension-shtml=userapp-Nightly-TOJ7R1.desktop
+application/xhtml+xml=userapp-Nightly-TOJ7R1.desktop
+application/x-extension-xhtml=userapp-Nightly-TOJ7R1.desktop
+application/x-extension-xht=userapp-Nightly-TOJ7R1.desktop
+application/pdf=org.gnome.Evince.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-5H1SR1.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Nightly-TOJ7R1.desktop;
+x-scheme-handler/https=userapp-Nightly-TOJ7R1.desktop;
+x-scheme-handler/chrome=userapp-Nightly-TOJ7R1.desktop;
+text/html=userapp-Nightly-TOJ7R1.desktop;
+application/x-extension-htm=userapp-Nightly-TOJ7R1.desktop;
+application/x-extension-html=userapp-Nightly-TOJ7R1.desktop;
+application/x-extension-shtml=userapp-Nightly-TOJ7R1.desktop;
+application/xhtml+xml=userapp-Nightly-TOJ7R1.desktop;
+application/x-extension-xhtml=userapp-Nightly-TOJ7R1.desktop;
+application/x-extension-xht=userapp-Nightly-TOJ7R1.desktop;
+text/x-csrc=nvim.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-5H1SR1.desktop;
+text/x-lua=vscodium.desktop;

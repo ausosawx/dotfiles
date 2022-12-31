@@ -1,0 +1,6 @@
+haskell-bitvec
+lib32-glib2
+lib32-pcre
+lib32-util-linux
+libbs2b
+ocl-icd

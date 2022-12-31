@@ -1,0 +1,166 @@
+{
+	"layer": "top",
+		"position": "top",
+		"modules-left": ["cpu","memory","custom/media","keyboard-state","tray","mpd"],
+		"modules-center": ["wlr/workspaces"],
+		"modules-right": ["custom/wallpaper","backlight","pulseaudio","bluetooth", "clock", "battery","custom/power"],
+		"wlr/workspaces": {
+			"disable-scroll": true,
+			"all-outputs": true,
+			"on-click": "activate",
+			"format": "{icon}",
+			"persistent_workspaces": {
+				"1": [],
+				"2": [],
+				"3": [],
+				"4": [],
+				"5": [],
+				"6": [],
+				"7": [],
+				"8": [],
+				"9": [],
+				"10": []
+			},
+			"format-icons": {
+				"1": "一",
+				"2": "二",
+				"3": "三",
+				"4": "四",
+				"5": "五",
+				"6": "六",
+				"7": "七",
+				"8": "八",
+				"9": "九",
+				"10": "〇",
+				"default": "一",
+				"active": "●"
+			}
+		},
+		"pulseaudio": {
+			// "scroll-step": 1, // %, can be a float
+			"format": "{volume}% {icon} {format_source}",
+			"format-bluetooth": "{volume}% {icon} {format_source}",
+			"format-bluetooth-muted": " {icon} {format_source}",
+			"format-muted": " {format_source}",
+			"format-source": "{volume}% ",
+			"format-source-muted": "",
+			"format-icons": {
+				"headphone": "",
+				"hands-free": "",
+				"headset": "",
+				"phone": "",
+				"portable": "",
+				"car": "",
+				"default": ["", "", ""]
+			},
+			"on-click": "pavucontrol"
+		},
+		"bluetooth": {
+			"format": " {status}",
+			"format-connected": " {device_alias}",
+			"format-connected-battery": " {device_alias} {device_battery_percentage}%",
+			// "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device
+			"tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+			"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+			"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+			"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
+			"on-click": "blueberry",
+			"on-click-right": "bluetoothctl power off"
+		},
+		"mpd": {
+			/* "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ", */
+			"format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}){volume}% ",
+			"format-disconnected": "Disconnected ",
+			"format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+			"unknown-tag": "N/A",
+			"interval": 2,
+			/* "max-length": 40, */
+			"consume-icons": {
+				"on": " "
+			},
+			"random-icons": {
+				"off": "<span color=\"#f53c3c\"></span> ",
+				"on": " "
+			},
+			"repeat-icons": {
+				"on": " "
+			},
+			"single-icons": {
+				"on": "1 "
+			},
+			"state-icons": {
+				"paused": "",
+				"playing": ""
+			},
+			"tooltip-format": "MPD (connected)",
+			"tooltip-format-disconnected": "MPD (disconnected)"
+		},
+		"backlight": {
+			"tooltip": false,
+			"format": " {}%",
+			"interval": 1,
+			"on-scroll-up": "bash ~/.config/system_scripts/backlight_control.sh up",
+			"on-scroll-down": "bash ~/.config/system_scripts/backlight_control.sh down"
+		},
+		"battery": {
+			"states": {
+				"good": 95,
+				"warning": 30,
+				"critical": 20
+			},
+			"format": "{icon}  {capacity}%",
+			"format-charging": " {capacity}%",
+			"format-plugged": " {capacity}%",
+			"format-alt": "{time} {icon}",
+			"format-icons": ["", "", "", "", ""]
+		},
+		"tray":{
+			"icon-size":18,
+			"spacing": 10
+		},
+		"clock": {
+			"timezone": "Asia/Shanghai",
+			"format": "{: %I:%M %p   %d/%m/%Y}"
+		},
+		"cpu": {
+			"interval": 15,
+			"format": " {}%",
+			"max-length": 10
+		},
+		"memory": {
+			"interval": 30,
+			"format": " {}%",
+			"max-length": 10
+		},
+		"keyboard-state": {
+			//"numlock": true,
+			"capslock": true,
+			"format": "{icon} {name}",
+			"format-icons": {
+				"locked": " ",
+				"unlocked": ""
+			},
+		},
+		"custom/media": {
+			"format": "{icon} {}",
+			"return-type": "json",
+			"max-length": 20,
+			"format-icons": {
+				"spotify": " ",
+				"default": " "
+			},
+			"escape": true,
+			"on-scroll-up" : "playerctl -p spotify next",
+			"on-scroll-down" : "playerctl -p spotify previous",
+			"exec": "$HOME/.config/system_scripts/mediaplayer.py 2> /dev/null",
+			"on-click": "playerctl play-pause"
+		},
+		"custom/power":{
+			"format": " ",
+			"on-click": "bash ~/.config/rofi/leave/leave.sh",
+		},
+		"custom/wallpaper":{
+			"format":" ",
+			"on-click": "bash ~/.config/system_scripts/pkill_bc"
+		}
+}
