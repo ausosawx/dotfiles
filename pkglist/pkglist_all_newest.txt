@@ -8,7 +8,6 @@ alsa-card-profiles
 alsa-lib
 alsa-topology-conf
 alsa-ucm-conf
-anthy
 aom
 archlinux-keyring
 archlinuxcn-keyring
@@ -51,7 +50,6 @@ cairo
 cairomm
 calibre
 cantarell-fonts
-capnproto
 catppuccin-mocha-grub-theme-git
 cava
 cblas
@@ -110,12 +108,14 @@ expat
 ext4magic
 faad2
 fakeroot
-fcitx5
-fcitx5-anthy
-fcitx5-configtool
-fcitx5-gtk
-fcitx5-qt
-fcitx5-rime
+fcitx5-chinese-addons-git
+fcitx5-configtool-git
+fcitx5-git
+fcitx5-gtk-git
+fcitx5-pinyin-moegirl
+fcitx5-pinyin-zhwiki
+fcitx5-qt5-git
+fcitx5-qt6-git
 fd
 ffmpeg
 ffmpeg4.4
@@ -145,13 +145,14 @@ gcc-libs
 gcr
 gcr-4
 gd
+gdb
+gdb-common
 gdbm
 gdk-pixbuf2
 geoclue
 geocode-glib
 geocode-glib-common
 gettext
-gflags
 ghc-libs
 ghostscript
 giflib
@@ -178,7 +179,6 @@ gnutls
 gobject-introspection
 gobject-introspection-runtime
 goldendict-git
-google-glog
 gperftools
 gpgme
 gpm
@@ -464,7 +464,6 @@ kitty
 kitty-shell-integration
 kitty-terminfo
 kmod
-koodo-reader-bin
 krb5
 kwidgetsaddons
 l-smash
@@ -476,7 +475,6 @@ ldb
 ldns
 leptonica
 less
-leveldb
 lib32-alsa-lib
 lib32-brotli
 lib32-bzip2
@@ -621,6 +619,7 @@ libidn
 libidn2
 libiec61883
 libimagequant
+libime-git
 libimobiledevice
 libindicator-gtk3
 libinih
@@ -699,8 +698,6 @@ libraw1394
 libreoffice-fresh
 libreoffice-fresh-zh-cn
 librevenge
-librime
-librime-data
 librsvg
 librsync
 libsamplerate
@@ -952,7 +949,6 @@ python-appdirs
 python-apsw
 python-asttokens
 python-async-timeout
-python-atspi
 python-attrs
 python-autocommand
 python-backcall
@@ -1110,13 +1106,6 @@ readline
 redland
 rest
 rhash
-rime-bopomofo
-rime-cangjie
-rime-essay
-rime-luna-pinyin
-rime-prelude
-rime-stroke
-rime-terra-pinyin
 ripgrep
 rnnoise
 rofi
@@ -1146,6 +1135,7 @@ snappy
 sndio
 sord
 sound-theme-freedesktop
+source-highlight
 spdlog
 speex
 speexdsp
@@ -1244,7 +1234,7 @@ x264
 x265
 xapp
 xarchiver
-xcb-imdkit
+xcb-imdkit-git
 xcb-proto
 xcb-util
 xcb-util-cursor

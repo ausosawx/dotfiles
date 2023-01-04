@@ -43,7 +43,6 @@
     ~/.config/nvim:
     ~/.config/bat:
     ~/.config/fcitx5:
-    ~/.config/xfce4:
     ~/.config/obs-studio/themes: obs/themes
     ~/.config/VSCodium/User/settings.json: vscodium/settings.json
     ~/.config/VSCodium/User/keybindings.json: vscodium/keybindings.json

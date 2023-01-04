@@ -267,4 +267,5 @@
             ]
         }
     },
+    "workbench.activityBar.visible": false,
 }

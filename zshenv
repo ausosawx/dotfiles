@@ -11,6 +11,7 @@ export XDG_DOCUMENTS_DIR=$HOME/Documents
 export XDG_MUSIC_DIR=$HOME/Music
 export XDG_PICTURES_DIR=$HOME/Pictures
 export XDG_VIDEOS_DIR=$HOME/Videos
+export XDG_CURRENT_DESKTOP=wayfire
 
 # ZDOTDIR variable
 export ZDOTDIR=$XDG_CONFIG_HOME/shell/zsh
