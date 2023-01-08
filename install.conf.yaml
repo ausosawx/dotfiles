@@ -47,6 +47,7 @@
     ~/.config/VSCodium/User/settings.json: vscodium/settings.json
     ~/.config/VSCodium/User/keybindings.json: vscodium/keybindings.json
     ~/.vscode-oss/extensions/extensions.json: vscodium/extensions.json
+    ~/.vscode-oss/argv.json: vscodium/argv.json
     ~/.style.yapf:
     ~/.clang-format:
     ~/.cmake-format.py:
