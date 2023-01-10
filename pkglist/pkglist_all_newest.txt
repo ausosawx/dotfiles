@@ -50,6 +50,7 @@ cairo
 cairomm
 calibre
 cantarell-fonts
+catch2-git
 catppuccin-mocha-grub-theme-git
 cava
 cblas
@@ -60,7 +61,7 @@ chrono-date
 cifs-utils
 clang
 clash-geoip
-clash-meta-bin
+clash-meta
 clash-verge
 clazy
 clucene
@@ -256,6 +257,7 @@ haskell-constraints
 haskell-contravariant
 haskell-cookie
 haskell-cryptonite
+haskell-data-array-byte
 haskell-data-default
 haskell-data-default-class
 haskell-data-default-instances-containers
@@ -352,6 +354,7 @@ haskell-skylighting
 haskell-skylighting-core
 haskell-skylighting-format-ansi
 haskell-skylighting-format-blaze-html
+haskell-skylighting-format-context
 haskell-skylighting-format-latex
 haskell-socks
 haskell-some
@@ -424,6 +427,7 @@ hunspell
 hwdata
 hwloc
 hyphen
+hyprland-git
 iana-etc
 icu
 ijs
@@ -631,6 +635,7 @@ libjpeg-turbo
 libjxl
 libksba
 liblangtag
+liblc3
 libldac
 libldap
 liblqr
@@ -947,6 +952,7 @@ psmisc
 python
 python-appdirs
 python-apsw
+python-astroid
 python-asttokens
 python-async-timeout
 python-attrs
@@ -968,6 +974,7 @@ python-cssselect
 python-dateutil
 python-debugpy
 python-decorator
+python-dill
 python-dnspython
 python-entrypoints
 python-executing
@@ -984,6 +991,7 @@ python-importlib-metadata
 python-inflate64
 python-inflect
 python-ipykernel
+python-isort
 python-jaraco.context
 python-jaraco.functools
 python-jaraco.text
@@ -991,11 +999,13 @@ python-jedi
 python-jeepney
 python-jupyter_client
 python-jupyter_core
+python-lazy-object-proxy
 python-lxml
 python-mako
 python-markdown
 python-markupsafe
 python-matplotlib-inline
+python-mccabe
 python-mechanize
 python-more-itertools
 python-mpmath
@@ -1027,6 +1037,7 @@ python-pycryptodome
 python-pycryptodomex
 python-pydantic
 python-pygments
+python-pylint
 python-pynvim
 python-pyparsing
 python-pyppmd
@@ -1048,7 +1059,9 @@ python-stack-data
 python-sympy
 python-termcolor
 python-texttable
+python-toml
 python-tomli
+python-tomlkit
 python-tornado
 python-traitlets
 python-trove-classifiers
@@ -1059,6 +1072,7 @@ python-validate-pyproject
 python-wcwidth
 python-webencodings
 python-wheel
+python-wrapt
 python-wxpython
 python-zeroconf
 python-zipp
@@ -1145,6 +1159,7 @@ sqlite
 sratom
 srt
 startup-notification
+stylua
 sudo
 svt-av1
 swaybg-git
@@ -1209,8 +1224,9 @@ vte3
 vulkan-headers
 vulkan-icd-loader
 vulkan-intel
+vulkan-validation-layers
 wavpack
-waybar
+waybar-hyprland-git
 wayfire-git
 wayland
 wayland-protocols
@@ -1260,6 +1276,7 @@ xorg-server-xvfb
 xorg-setxkbmap
 xorg-xauth
 xorg-xhost
+xorg-xinput
 xorg-xkbcomp
 xorg-xprop
 xorg-xrandr
@@ -1271,6 +1288,7 @@ xxhash
 xz
 yajl
 yaml-cpp
+yapf
 yt-dlp
 zathura
 zathura-pdf-poppler

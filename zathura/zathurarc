@@ -21,10 +21,10 @@ set selection-clipboard clipboard
 set sandbox none
 
 # 背景颜色
-set recolor true
-set default-bg \#1c1c1c
-set recolor-darkcolor black
-set recolor-lightcolor "#ECEDB0"
+# set recolor true
+# set default-bg \#1c1c1c
+# set recolor-darkcolor black
+# set recolor-lightcolor "#ECEDB0"
 
 # font
 set font "SauceCodePro Nerd Font Regular 18"

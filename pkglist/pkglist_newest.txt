@@ -18,7 +18,7 @@ catppuccin-mocha-grub-theme-git
 cava
 cblas
 clang
-clash-meta-bin
+clash-meta
 clash-verge
 cmake
 ctags
@@ -61,6 +61,7 @@ gvfs-mtp
 gzip
 highlight
 htop
+hyprland-git
 imv
 inetutils
 intel-media-driver
@@ -136,6 +137,7 @@ poppler-data
 python-gobject
 python-ipykernel
 python-pillow
+python-pylint
 python-pynvim
 python-pyquery
 python-requests
@@ -154,6 +156,7 @@ sed
 shellcheck
 slurp
 spotify
+stylua
 sudo
 swaybg-git
 swaylock
@@ -177,7 +180,7 @@ vimix-icon-theme
 vlc-git
 vscodium-bin
 vulkan-intel
-waybar
+waybar-hyprland-git
 wayfire-git
 wget
 which
@@ -187,6 +190,7 @@ woeusb
 wxmaxima
 xarchiver
 xdg-desktop-portal-wlr
+yapf
 yt-dlp
 zathura
 zathura-pdf-poppler
